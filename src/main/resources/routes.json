@@ -1,0 +1,21 @@
+[
+  {
+    "httpMethod": "GET",
+    "urlPath": "/user/{name}",
+    "dubbo": {
+      "interfaze": "com.foo.william.UserService",
+      "method": "findById",
+      "pathParamIndex": [
+        1
+      ]
+    }
+  },
+  {
+    "httpMethod": "POST",
+    "urlPath": "/user}",
+    "dubbo": {
+      "interfaze": "com.foo.william.UserService",
+      "method": "create",
+    }
+  }
+]
